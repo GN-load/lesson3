@@ -1,0 +1,24 @@
+body {
+    position: relative;
+}
+
+.modal {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.click-me {
+    cursor: pointer;
+    transition: .5s ease-in-out all;
+    
+}
+.click-me:hover {
+    transform: scale(1.1);
+}
